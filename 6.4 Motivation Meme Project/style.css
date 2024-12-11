@@ -7,16 +7,16 @@ h1 {
     font-size: 3rem;
 }
 
-img {
-    width: 100%;
-    border: 5px solid white;
-}
-
-#poster {
+.main-content {
     font-family: "Libre Baskerville", serif;
-    text-align: center;
     color: white;
+    text-align: center;
     width: 50%;
     margin-left: 25%;
     margin-top: 100px;
+}
+
+.poster-image {
+    border: 5px solid white;
+    width: 100%;
 }

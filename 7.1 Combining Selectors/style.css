@@ -1,0 +1,32 @@
+/* Write your code here: */
+
+/* grouping selector */
+h1, h2 {
+    color: blueviolet;
+}
+
+/* parent selector*/
+/* applies only to element that one level below the parent */
+.box > p {
+    color: firebrick;
+}
+
+/* descendant selector*/
+/* applies on element that below the parent */
+.box li {
+    color: blue;
+}
+
+/* chaining selector */
+/* apply where ALL selector are true */
+/* use no space, always start from the element */
+/* how to read below: look at the li elements that has class="done" */
+li.done {
+    color: seagreen;
+}
+
+/* combining combiners */
+/* find an UL that has descendant : P with Class="done" */
+ul p.done {
+    font-size: 0.5rem;
+}
